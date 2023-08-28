@@ -32,21 +32,6 @@ UPDATE hobby
 SET fake_id = 1
 WHERE id = 3;
 
-UPDATE hobby
-SET fake_id = 4
-WHERE id = 5;
-
-UPDATE hobby
-SET fake_id = 3
-WHERE id = 1;
-
-UPDATE hobby
-SET fake_id = 4
-WHERE id = 6;
-
-UPDATE hobby
-SET fake_id = 6
-WHERE id = 4;
 
 WITH fullTmp AS(
     SELECT  t1.name AS n,
